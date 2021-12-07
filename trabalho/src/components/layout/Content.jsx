@@ -19,9 +19,6 @@ const Content = props => (
             <Route path="/Musicas">
                 <Musicas />
             </Route>
-            <Route path="/Biblio">
-                <Biblio />
-            </Route>
             <Route path="*">
                 <NaoEncontrado />
             </Route>
